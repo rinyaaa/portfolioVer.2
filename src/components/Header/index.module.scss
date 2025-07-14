@@ -1,0 +1,43 @@
+/* Header css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logImage {
+  border-radius: 50%;
+  display: block;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f9b6dc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.navItem {
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  list-style: none;
+  width: fit-content;
+  background-color: #fbddf1;
+  padding: 15px 30px;
+}
+
+.navItemActive {
+  background-color: #f9b6dc;
+  color: white;
+}

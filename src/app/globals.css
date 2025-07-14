@@ -3,3 +3,9 @@
   padding: 0;
   margin: 0;
 }
+
+body{
+  background: linear-gradient(#FCE8F4, #FCF3FC);
+  width: 100svw;
+  height: 100svh;
+}
